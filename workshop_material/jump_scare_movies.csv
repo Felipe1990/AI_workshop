@@ -1,0 +1,536 @@
+movie_name,director,year,jump_count,jump_score,netflix,imdb_score
+10 Cloverfield Lane,Dan Trachtenberg,2016.0,8.0,2.5,No,7.3
+28 Days Later,Danny Boyle,2003.0,10.0,3.0,No,7.6
+28 Weeks Later,Juan Carlos Fresnadillo,2007.0,17.0,3.5,No,7.0
+30 Days of Night,David Slade,2007.0,9.0,2.5,No,6.6
+31,Rob Zombie,2016.0,8.0,2.5,No,5.8
+47 Meters Down,Johannes Roberts,2017.0,11.0,3.0,Yes,5.7
+1408,Mikael Håfström,2007.0,8.0,3.0,No,6.8
+1922,Zak Hilditch,2017.0,2.0,1.0,Yes,6.5
+A Cure for Wellness,Gore Verbinski,2016.0,6.0,1.5,No,6.5
+A Ghost Story,David Lowery,2017.0,3.0,1.0,No,7.0
+A Girl Walks Home Alone at Night,Ana Lily Amirpour,2014.0,0.0,0.0,No,7.1
+A Nightmare on Elm Street,Wes Craven,1984.0,11.0,2.5,No,7.5
+A Nightmare on Elm Street,Samuel Bayer,2010.0,15.0,3.0,No,5.2
+A Nightmare on Elm Street 2: Freddy's Revenge,Jack Sholder,1985.0,8.0,2.0,No,5.3
+A Nightmare on Elm Street 3: Dream Warriors,Chuck Russell,1987.0,11.0,2.5,No,6.5
+A Quiet Place,John Krasinski,2018.0,14.0,4.0,No,7.8
+A Tale of Two Sisters,Jee-woon Kim,2003.0,14.0,3.0,No,7.3
+Absentia,Mike Flanagan,2011.0,8.0,2.0,No,5.8
+Alien,Ridley Scott,1979.0,11.0,2.5,No,8.5
+Alien: Covenant,Ridley Scott,2017.0,6.0,2.0,No,6.7
+Alien 3,David Fincher,1992.0,12.0,2.5,No,6.4
+Alien: Resurrection,Jean-Pierre Jeunet,1997.0,9.0,3.0,No,6.3
+Aliens,James Cameron,1986.0,13.0,3.0,No,8.4
+Alone,"Banjong Pisanthanakun, Parkpoom Wongpoom",2007.0,21.0,4.5,No,6.6
+Altered States,Ken Russell,1980.0,2.0,0.5,No,6.9
+Amityville: The Awakening,Franck Khalfoun,2017.0,11.0,3.0,No,5.2
+Amnesiac,Michael Polish,2015.0,1.0,0.5,No,4.3
+An American Werewolf in London,James Landis,1981.0,14.0,3.0,No,7.6
+An American Werewolf in Paris,Anthony Waller,1997.0,11.0,2.5,No,5.1
+Anaconda,Luis Llosa,1997.0,9.0,2.0,No,4.6
+Anna,Jorge Dorado,2013.0,5.0,1.0,No,6.5
+Annabelle,John R. Leonetti,2014.0,11.0,3.5,No,5.4
+Annabelle: Creation,David F. Sandberg,2017.0,23.0,4.5,No,6.8
+Annihilation,Alex Garland,2018.0,4.0,1.5,Yes,7.8
+Apollo 18,Gonzalo López-Gallego,2011.0,10.0,3.0,No,5.2
+Apostle,Gareth Evans,2018.0,5.0,1.5,Yes,6.6
+Army of Darkness,Sam Raimi,1992.0,9.0,2.0,No,7.6
+Arrival,Denis Villeneuve,2016.0,3.0,0.5,No,7.3
+"As Above, So Below",John Erick Dowdle,2014.0,7.0,3.0,Yes,6.1
+Attack the Block,Joe Cornish,2011.0,12.0,3.0,No,6.6
+Audition,Takashi Miike,1999.0,1.0,0.5,No,7.2
+Backcountry,Adam MacDonald,2014.0,4.0,0.5,Yes,6.0
+Backtrack,Michael Petroni,2015.0,14.0,3.5,No,5.9
+Banshee Chapter,Blair Erickson,2013.0,22.0,5.0,No,5.5
+Before I Wake,Mike Flanagan,2016.0,9.0,3.0,Yes,6.1
+Berberian Sound Studio,Peter Strickland,2012.0,0.0,0.0,No,6.2
+Berlin Syndrome,Cate Shortland,2017.0,1.0,0.5,No,6.3
+Better Watch Out,Chris Peckover,2016.0,11.0,2.5,No,6.9
+Bird Box,Susanne Bier,2018.0,4.0,0.5,Yes,6.8
+Black Christmas,Bob Clark,1974.0,4.0,1.5,No,7.2
+Black Swan,Darren Aronofsky,2010.0,10.0,3.0,No,8.0
+Blade,Stephen Norrington,1998.0,1.0,1.0,No,7.1
+Blair Witch,Adam Wingard,2016.0,18.0,4.0,No,5.0
+Bone Tomahawk,S. Craig Zahler,2015.0,0.0,0.0,No,7.1
+Bram Stoker's Dracula,Francis Ford Coppola,1992.0,1.0,0.5,No,7.5
+Bride of Chucky,Ronny Yu,1998.0,11.0,2.0,No,5.3
+Cabin Fever,Eli Roth,2002.0,10.0,2.5,No,5.6
+Cam,Daniel Goldhaber,2018.0,1.0,0.5,Yes,6.0
+Candyman,Bernard Rose,1992.0,16.0,4.0,No,6.6
+Cape Fear,Martin Scorsese,1991.0,4.0,1.5,No,7.3
+Cargo,"Ben Howling, Yolanda Ramke",2017.0,2.0,0.5,Yes,6.8
+Carrie,Brian De Palma,1976.0,1.0,0.5,No,7.4
+Carrie,Kimberly Peirce,2013.0,4.0,1.0,No,5.9
+Case 39,Christian Alvart,2009.0,9.0,2.0,No,6.2
+Cat People,Jacques Tourneur,1942.0,2.0,1.0,No,7.4
+Cell,Tod Williams,2016.0,5.0,2.0,No,4.3
+Chernobyl Diaries,Bradley Parker,2012.0,16.0,3.5,Yes,5.0
+Children of the Corn,Fritz Kiersch,1984.0,8.0,3.0,No,5.6
+Child's Play,Tom Holland,1988.0,8.0,2.5,No,6.5
+Cloverfield,Matt Reeves,2008.0,7.0,2.0,No,7.0
+Clown,Jon Watts,2014.0,11.0,3.0,No,5.6
+Cooties,"Jonathan Milott, Cary Murnion",2014.0,15.0,3.0,No,5.8
+Creep,Patrick Kack-Brice,2014.0,10.0,3.0,Yes,6.2
+Creep 2,Patrick Brice,2017.0,6.0,2.0,Yes,6.3
+Crimson Peak,Guillermo del Toro,2015.0,9.0,2.5,No,6.6
+Cube,Vincenzo Natali,1997.0,1.0,0.5,No,7.3
+Cujo,Lewis Teague,1983.0,4.0,1.0,No,6.0
+Cult of Chucky,Don Mancini,2017.0,14.0,3.5,Yes,5.2
+Cyberbully,Ben Chanan,2015.0,1.0,1.0,No,7.0
+Dark Shadows,Tim Burton,2012.0,2.0,0.5,No,6.2
+Dark Skies,Scott Stewart,2013.0,11.0,2.5,No,6.3
+Dark Was The Night,Jack Heller,2014.0,16.0,3.0,No,5.6
+Dark Water,Walter Salles,2005.0,7.0,2.0,No,5.5
+Dawn of the Dead,Zack Synder,2004.0,10.0,2.0,No,7.4
+Day of the Dead,George A. Romero,1985.0,10.0,3.0,No,7.2
+Dead Alive,Peter Jackson,1992.0,3.0,1.0,No,7.6
+Dead Calm,Phillip Noyce,1989.0,2.0,1.0,No,6.8
+Dead End,"Jean-Baptiste Andrea, Fabrice Canepa",2003.0,9.0,2.5,No,6.7
+Dead Silence,James Wan,2007.0,15.0,4.0,No,6.2
+Death Note,Adam Wingard,2017.0,6.0,1.5,Yes,4.6
+Deathgasm,Jason Lei Howden,2015.0,7.0,2.0,No,6.3
+Deep Blue Sea,Renny Harlin,1999.0,10.0,2.5,No,5.8
+Deep Red,Dario Argento,1975.0,7.0,1.5,No,7.7
+Deliver Us From Evil,Scott Derrickson,2014.0,16.0,4.0,No,6.2
+Dementia,Mike Testin,2015.0,0.0,0.0,No,5.0
+Demonic,Will Canon,2015.0,17.0,4.0,Yes,5.3
+Devil,John Erick Dowdle,2010.0,4.0,1.5,No,6.3
+Devil's Due,"Matt Bettinelli-Olpin, Tyler Gillett",2014.0,13.0,3.0,No,4.1
+Devil's Pass,Renny Harlin,2013.0,10.0,2.5,No,5.7
+Dismissed,Benjamin Arfmann,2017.0,0.0,0.0,No,5.8
+Disturbia,D.J. Caruso,2007.0,13.0,3.0,No,6.9
+Dog Soldiers,Neil Marshall,2002.0,13.0,3.0,No,6.8
+Donnie Darko,Richard Kelly,2001.0,3.0,1.0,No,8.1
+Don't Be Afraid of the Dark,Troy Nixey,2010.0,8.0,3.0,No,5.6
+Don't Breathe,Fede Alvarez,2016.0,17.0,3.5,No,7.2
+Don't Knock Twice,Caradog W. James,2016.0,19.0,3.5,No,5.2
+Doom,Andrzej Bartkowiak,2005.0,15.0,3.5,Yes,5.2
+Dracula Untold,Gary Shore,2014.0,4.0,1.0,No,6.3
+Drag Me To Hell,Sam Raimi,2009.0,23.0,4.5,No,6.6
+Dreamcatcher,Lawrence Kasdan,2003.0,11.0,3.0,No,5.5
+Eden Lake,James Watkins,2008.0,3.0,1.0,No,6.8
+Elle,Paul Verhoeven,2016.0,7.0,2.0,No,7.3
+Emelie,Michael Thelin,2015.0,3.0,0.5,Yes,5.4
+Europa Report,Sebastián Cordero,2013.0,1.0,0.5,No,6.5
+Event Horizon,Paul W.S. Anderson,1997.0,11.0,3.0,No,6.7
+Evil Dead,Fede Alvarez,2013.0,20.0,4.0,No,6.5
+Evil Dead II,Sam Raimi,1987.0,27.0,4.0,No,7.8
+Exorcist: The Beginning,Renny Harlin,2004.0,17.0,4.0,No,5.1
+Extinction,Miguel Ángel Vivas,2015.0,12.0,3.0,No,5.8
+Extraterrestrial,Colin Minihan,2014.0,30.0,4.5,No,5.0
+Fear Clinic,Robert Hall,2014.0,13.0,3.0,No,5.6
+Final Destination,James Wong,2000.0,4.0,2.0,Yes,6.7
+Final Destination 2,David R. Ellis,2003.0,3.0,1.0,Yes,6.2
+Final Destination 3,James Wong,2006.0,5.0,1.0,Yes,5.8
+Final Destination 5,Steven Quale,2011.0,5.0,1.5,No,5.9
+Flatliners,Joel Schumacher,1990.0,7.0,2.0,Yes,6.6
+Flatliners,Niels Arden Oplev,2017.0,20.0,4.0,No,5.0
+Frailty,Bill Paxton,2001.0,0.0,0.0,No,7.3
+Freddy vs. Jason,Ronny Yu,2003.0,24.0,4.0,No,5.8
+Friday the 13th,Sean S. Cunningham,1980.0,10.0,3.0,No,6.5
+Friday the 13th,Marcus Nispel,2009.0,23.0,4.0,No,5.6
+Friend Request,Simon Verhoeven,2016.0,21.0,4.0,Yes,5.4
+Fright Night,Craig Gillespie,2011.0,10.0,3.0,No,6.4
+Funny Games,Michael Haneke,1997.0,1.0,0.5,No,7.6
+Funny Games,Michael Haneke,2007.0,1.0,0.5,No,6.5
+Gerald's Game,Mike Flanagan,2017.0,3.0,0.5,Yes,7.1
+Get Out,Jordan Peele,2017.0,10.0,2.5,No,7.8
+Ghost Ship,Steve Beck,2002.0,12.0,3.0,Yes,5.5
+Ghost Stories,"Jeremy Dyson, Andy Nyman",2017.0,20.0,4.0,No,6.6
+Ghostland,Pascal Laugier,2018.0,21.0,4.0,No,6.3
+Goodnight Mommy,"Severin Fiala, Veronika Franz",2014.0,1.0,0.5,No,6.7
+Goosebumps,Rob Letterman,2015.0,10.0,2.5,No,6.4
+Gothika,Mathieu Kassovitz,2003.0,16.0,3.5,Yes,5.8
+Grave Encounters,"Colin Minihan, Stuart Ortiz",2011.0,12.0,4.0,No,6.1
+Green Room,Jeremy Saulnier,2015.0,1.0,0.5,Yes,7.2
+Gremlins,Joe Dante,1984.0,17.0,3.5,No,7.2
+Halloween,John Carpenter,1978.0,13.0,2.5,No,7.9
+Halloween,Rob Zombie,2007.0,9.0,3.0,No,6.1
+Halloween,David Gordon Green,2018.0,14.0,3.5,No,7.5
+Halloween H20: 20 Years Later,Steve Miner,1998.0,16.0,3.5,No,5.6
+Halloween II,Rick Rosenthal,1981.0,8.0,2.0,No,6.5
+Halloween II,Rob Zombie,2009.0,16.0,3.0,No,4.9
+Hannibal,Ridley Scott,2001.0,2.0,0.5,No,6.8
+Hannibal Rising,Peter Webber,2007.0,0.0,0.0,No,6.2
+Happy Death Day 2U,Christopher Landon,2019.0,7.0,2.0,No,6.5
+Happy Death Day,Christopher Landon,2017.0,8.0,2.5,No,6.7
+Hellboy,Guillermo del Toro,2004.0,6.0,1.5,No,6.8
+Hellraiser,Clive Barker,1987.0,5.0,2.0,No,7.1
+Here Alone,Rod Blackhurst,2016.0,2.0,0.5,Yes,5.6
+Hereditary,Ari Aster,2018.0,8.0,2.0,No,8.1
+Hidden,"Matt Duffer, Ross Duffer",2015.0,4.0,1.5,No,6.4
+Hide and Seek,John Polson,2005.0,16.0,3.5,No,5.9
+High Tension,Alexandre Aja,2003.0,8.0,2.5,No,6.9
+Holidays,Various Directors,2016.0,5.0,2.0,Yes,5.1
+Hollow Man,Paul Verhoeven,2000.0,9.0,2.5,No,5.7
+Honeymoon,Leigh Janiak,2014.0,3.0,0.5,No,5.6
+Horns,Alexandre Aja,2013.0,3.0,0.5,No,6.5
+Hostel,Eli Roth,2005.0,2.0,0.5,No,5.9
+Hounds of Love,Ben Young,2016.0,0.0,0.0,No,6.6
+Hour of the Wolf,Ingmar Bergman,1968.0,1.0,0.5,No,7.7
+House,Steve Miner,1986.0,11.0,3.0,No,6.2
+House of 1000 Corpses,Rob Zombie,2003.0,6.0,2.5,No,6.0
+House of Wax,Jaume Collet-Serra,2005.0,16.0,4.0,No,5.3
+House on Haunted Hill,William Malone,1999.0,14.0,3.0,No,5.6
+Hush,Mike Flanagan,2016.0,7.0,2.5,Yes,6.6
+I Am Legend,Francis Lawrence,2007.0,9.0,2.5,No,7.2
+I Am Not a Serial Killer,Billy O’Brien,2016.0,3.0,1.0,No,6.2
+"I Am the Pretty Thing
+That Lives in the House",Oz Perkins,2016.0,4.0,0.5,Yes,4.7
+"I Know What You Did
+Last Summer",Jim Gillespie,1997.0,13.0,3.5,Yes,5.6
+Identity,James Mangold,2003.0,11.0,2.5,No,7.3
+Idle Hands,Rodman Flender,1999.0,10.0,3.0,No,6.2
+In The Mouth Of Madness,John Carpenter,1994.0,10.0,3.0,No,7.2
+Incarnate,Brad Peyton,2016.0,9.0,2.5,No,5.1
+Inland Empire,David Lynch,2006.0,8.0,2.5,No,7.0
+Inside,"Alexandre Bustillo, Julien Maury",2007.0,4.0,1.0,No,6.9
+Insidious,James Wan,2010.0,24.0,5.0,No,6.8
+Insidious: Chapter 2,James Wan,2013.0,22.0,4.0,No,6.6
+Insidious: Chapter 3,Leigh Whannell,2015.0,15.0,4.0,No,6.1
+Insidious: The Last Key,Adam Robitel,2018.0,15.0,4.0,No,5.8
+Interview With the Vampire,Neil Jordan,1994.0,6.0,2.0,No,7.6
+Intruders,Adam Schindler,2015.0,4.0,1.0,No,5.7
+Invasion of the Body Snatchers,Philip Kaufman,1978.0,4.0,1.0,No,7.4
+It,Andy Muschietti,2017.0,23.0,4.0,No,8.2
+It Comes at Night,Trey Edward Shults,2017.0,5.0,1.5,No,6.8
+It Follows,David Robert Mitchell,2014.0,5.0,2.0,No,6.9
+Jacob's Ladder,Adrian Lyne,1990.0,4.0,1.0,No,7.5
+Jaws,Steven Spielberg,1975.0,4.0,2.5,No,8.1
+Jeepers Creepers,Victor Salva,2001.0,11.0,3.5,No,6.1
+Jennifer's Body,Karyn Kusama,2009.0,6.0,2.0,No,5.1
+Jessabelle,Kevin Greutert,2014.0,9.0,2.0,No,5.4
+Jigsaw,"Michael Spierig, Peter Spierig",2017.0,7.0,2.0,No,6.3
+Joy Ride,John Dahl,2001.0,2.0,0.5,No,6.6
+Julia's Eyes,Guillem Morales,2010.0,7.0,2.0,No,6.6
+Jurassic Park,Steven Spielberg,1993.0,9.0,2.5,No,8.1
+Jurassic World,Colin Trevorrow,2015.0,5.0,2.0,No,7.0
+Jurassic World: Fallen Kingdom,J.A. Bayona,2018.0,7.0,2.0,No,6.5
+Kill List,Ben Wheatley,2011.0,1.0,0.5,No,6.3
+Knock Knock,Eli Roth,2015.0,2.0,0.5,No,4.9
+Krampus,Michael Dougherty,2015.0,10.0,2.0,No,6.2
+Lake Mungo,Joel Anderson,2008.0,1.0,0.5,No,6.1
+Lake Placid,Steve Miner,1999.0,11.0,2.5,No,5.6
+Last Shift,Anthony DiBlasi,2014.0,17.0,4.0,No,5.7
+Leatherface,"Alexandre Bustillo, Julien Maury",2017.0,13.0,3.0,No,5.2
+Let Me In,Matt Reeves,2010.0,3.0,0.5,No,7.2
+Let The Right One In,Tomas Alfredson,2008.0,2.0,0.5,No,8.0
+Let Us Prey,Brian O’Malley,2014.0,7.0,3.0,No,5.6
+Life,Daniel Espinosa,2017.0,8.0,2.0,No,6.8
+Lights Out,David F. Sandberg,2016.0,19.0,4.5,No,6.4
+Little Evil,Eli Craig,2017.0,7.0,1.5,Yes,5.8
+Maggie,Henry Hobson,2015.0,4.0,0.5,No,5.6
+Malevolent,Olaf de Fleur Johannesson,2018.0,8.0,3.0,Yes,4.8
+Malice,Harold Becker,1993.0,3.0,1.0,No,6.4
+Mama,Andrés Muschietti,2013.0,13.0,3.5,No,6.2
+Mandy,Panos Cosmatos,2018.0,5.0,1.5,No,6.9
+Marrowbone,Sergio G. Sánchez,2017.0,5.0,2.5,No,6.6
+Martyrs,Pascal Laugier,2008.0,15.0,3.0,No,7.1
+May,Lucky McKee,2002.0,0.0,0.0,No,6.7
+Mayhem,Joe Lynch,2017.0,2.0,0.5,No,6.5
+Megan Is Missing,Michael Goi,2011.0,1.0,0.5,No,4.9
+Mirrors,Alexandre Aja,2008.0,15.0,4.0,No,6.2
+Misery,Rob Reiner,1990.0,3.0,0.5,No,7.8
+Mom and Dad,Brian Taylor,2017.0,5.0,1.5,No,5.7
+Morgan,Luke Scott,2016.0,3.0,0.5,No,5.9
+Mother!,Darren Aronofsky,2017.0,7.0,2.0,No,7.0
+Mulholland Drive,David Lynch,2001.0,1.0,1.0,No,8.0
+My Bloody Valentine,George Mihalka,1981.0,11.0,2.5,No,6.2
+My Friend Dahmer,Marc Meyers,2017.0,0.0,0.0,No,6.5
+Nerve,"Henry Joost, Ariel Schulman",2016.0,1.0,0.5,No,6.7
+Nocturnal Animals,Tom Ford,2016.0,1.0,1.0,No,7.5
+Noroi: The Curse,Kôji Shiraishi,2005.0,4.0,1.0,No,7.0
+Oculus,Mike Flanagan,2013.0,14.0,3.5,No,6.5
+Odd Thomas,Stephen Sommers,2013.0,10.0,3.0,No,6.9
+One Hour Photo,Mark Romanek,2002.0,1.0,0.5,No,6.8
+One Missed Call,Eric Valette,2008.0,15.0,3.5,No,3.9
+Only Lovers Left Alive,Jim Jarmusch,2013.0,0.0,0.0,No,7.3
+Orphan,Jaume Collet-Serra,2009.0,12.0,3.0,No,7.0
+Ouija,Stiles White,2014.0,16.0,4.0,No,4.4
+Ouija: Origin of Evil,Mike Flanagan,2016.0,18.0,4.0,No,6.1
+Overlord,Julius Avery,2018.0,12.0,2.5,No,7.1
+P2,Franck Khalfoun,2007.0,16.0,4.0,No,5.9
+Pandorum,Christian Alvart,2009.0,13.0,4.0,Yes,6.8
+Pan's Labyrinth,Guillermo del Toro,2006.0,6.0,1.5,No,8.2
+Paranormal Activity,Oren Peli,2007.0,10.0,3.5,No,6.3
+Paranormal Activity 2,Tod Williams,2010.0,14.0,3.5,No,5.7
+Paranormal Activity 3,"Henry Joost, Ariel Schulman",2011.0,20.0,4.0,No,5.9
+Paranormal Activity 4,"Henry Joost, Ariel Schulman",2012.0,21.0,4.0,No,4.6
+Paranormal Activity: The Ghost Dimension,Gregory Plotkin,2015.0,29.0,4.0,No,4.6
+Patient Zero,Stefan Ruzowitzky,2018.0,6.0,1.5,No,4.3
+Pay The Ghost,Uli Edel,2015.0,13.0,3.0,No,5.2
+Personal Shopper,Olivier Assayas,2016.0,4.0,0.5,No,6.2
+Pet,Carles Torrens,2016.0,2.0,1.0,No,5.7
+Pet Sematary,Mary Lambert,1989.0,13.0,3.5,No,6.6
+Pet Sematary,"Kevin Kölsch, Dennis Widmyer",2019.0,14.0,3.5,No,6.4
+Planet Terror,Robert Rodriguez,2007.0,14.0,2.5,No,7.2
+Poltergeist,Tobe Hooper,1982.0,9.0,1.0,Yes,7.4
+Poltergeist,Gil Kenan,2015.0,21.0,4.0,No,5.0
+Pontypool,Bruce McDonald,2008.0,1.0,0.5,No,6.7
+Predator,John McTiernan,1987.0,7.0,2.0,No,7.8
+Prevenge,Alice Lowe,2016.0,0.0,0.5,No,6.1
+Pride and Prejudice and Zombies,Burr Steers,2016.0,7.0,2.0,No,5.8
+Prince of Darkness,John Carpenter,1987.0,7.0,2.5,No,6.7
+Prometheus,Ridley Scott,2012.0,7.0,1.5,No,7.0
+Psycho,Alfred Hitchcock,1960.0,2.0,0.5,No,8.6
+Quarantine,John Erick Dowdle,2008.0,14.0,3.5,No,6.0
+Ravenous,Antonia Bird,1999.0,4.0,1.0,No,7.1
+Raw,Julia Ducournau,2016.0,3.0,1.0,Yes,7.1
+Re-Animator,Stuart Gordon,1985.0,4.0,1.0,No,7.3
+[Rec],"Jaume Balagueró, Paco Plaza",2007.0,11.0,3.5,No,7.5
+Red Dragon,Brett Ratner,2002.0,6.0,2.0,No,7.2
+Regression,Alejandro Amenábar,2015.0,3.0,1.0,No,5.7
+Repulsion,Roman Polanski,1965.0,7.0,2.5,No,7.8
+Resident Evil,Paul W.S. Anderson,2002.0,7.0,2.5,No,6.7
+Resident Evil: The Final Chapter,Paul W.S. Anderson,2016.0,29.0,4.5,No,5.6
+Resolution,"Justin Benson, Aaron Moorhead",2012.0,2.0,0.5,No,6.2
+Restoration,Zack Ward,2016.0,10.0,3.0,No,4.0
+Ring (Ringu),Hideo Nakata,1998.0,5.0,2.0,No,7.3
+Rings,F. Javier Gutiérrez,2017.0,19.0,3.5,No,4.5
+Rosemary's Baby,Roman Polanski,1968.0,0.0,0.0,No,8.0
+Saw,James Wan,2004.0,5.0,2.0,No,7.7
+Saw II,Darren Lynn Bousman,2005.0,5.0,1.0,No,6.6
+Saw III,Darren Lynn Bousman,2006.0,5.0,1.5,No,6.2
+Saw IV,Darren Lynn Bousman,2007.0,6.0,1.5,No,5.9
+Saw V,David Hackl,2008.0,5.0,1.0,No,5.8
+Saw VI,Kevin Greutert,2009.0,2.0,0.5,No,6.0
+Scary Movie,Keenen Ivory Wayans,2000.0,8.0,1.5,No,6.2
+Scary Movie 2,Keenen Ivory Wayans,2001.0,8.0,1.5,Yes,5.3
+Scream,Wes Craven,1996.0,19.0,3.5,No,7.2
+Scream 2,Wes Craven,1997.0,19.0,4.0,No,6.1
+Scream 3,Wes Craven,2000.0,23.0,4.0,No,5.5
+Scream 4,Wes Craven,2011.0,18.0,3.5,Yes,6.2
+Searching,Aneesh Chaganty,2018.0,0.0,0.0,No,7.7
+Secret Window,David Koepp,2004.0,10.0,2.0,No,6.6
+Session 9,Brad Anderson,2001.0,0.0,0.0,No,6.5
+Seven,David Fincher,1995.0,1.0,0.5,No,8.6
+Shaun of the Dead,Edgar Wright,2004.0,13.0,2.5,No,8.0
+Shutter,"Banjong Pisanthanakun, Parkpoom Wongpoom",2004.0,11.0,4.0,Yes,7.1
+Shutter Island,Martin Scorsese,2010.0,9.0,2.0,No,8.1
+Signs,M. Night Shyamalan,2002.0,8.0,2.0,No,6.7
+Silent Hill,Christophe Gans,2006.0,7.0,1.5,No,6.6
+Silent Hill: Revelation,Michael J. Bassett,2012.0,22.0,4.0,No,5.0
+Silver Bullet,Dan Attias,1985.0,15.0,3.0,No,6.4
+Sinister,Scott Derrickson,2012.0,17.0,5.0,No,6.8
+Sinister 2,Ciarán Foy,2015.0,19.0,4.0,No,5.2
+Sleepaway Camp,Robert Hiltzik,1983.0,6.0,1.5,No,6.3
+Sleepy Hollow,Tim Burton,1999.0,1.0,0.5,No,7.4
+Slender Man,Sylvain White,2018.0,15.0,3.5,No,3.1
+Slither,James Gunn,2006.0,10.0,3.0,No,6.5
+Slumber,Jonathan Hopkins,2017.0,12.0,3.0,No,4.9
+Species,Roger Donaldson,1995.0,7.0,3.0,No,5.8
+Sphere,Barry Levinson,1998.0,4.0,1.0,No,6.0
+Splinter,Toby Wilkins,2008.0,10.0,3.0,No,6.1
+Split,M. Night Shyamalan,2016.0,3.0,0.5,No,7.3
+Spring,"Justin Benson, Aaron Moorhead",2014.0,1.0,0.5,No,6.6
+Stake Land,Jim Mickle,2010.0,1.0,0.5,No,6.5
+Starry Eyes,"Kevin Kolsch, Dennis Widmyer",2014.0,9.0,2.0,No,6.0
+Stephanie,Akiva Goldsman,2017.0,18.0,3.0,Yes,5.8
+Stir of Echoes,David Koepp,1999.0,9.0,3.0,No,7.0
+Summer of 84,"Anouk Whissell, François Simard, Yoann-Karl Whissell",2018.0,19.0,4.0,No,6.7
+Sunshine,Danny Boyle,2007.0,6.0,1.5,No,7.3
+Super 8,J.J. Abrams,2011.0,15.0,3.5,No,7.1
+Suspiria,Dario Argento,1977.0,6.0,1.5,No,7.5
+Suspiria,Luca Guadagnino,2018.0,2.0,0.5,No,7.1
+Tales of Halloween,Various Directors,2015.0,14.0,3.0,Yes,5.4
+Terrifier,Damien Leone,2017.0,18.0,3.5,Yes,5.7
+Texas Chainsaw 3D,John Luessenhop,2013.0,14.0,3.0,No,4.8
+The 9th Life of Louis Drax,Alexandre Aja,2016.0,4.0,1.0,No,6.3
+The Abandoned,Eytan Rockaway,2015.0,21.0,3.5,No,5.0
+The ABCs of Death,Various Directors,2012.0,0.0,0.0,No,4.7
+The Abyss,James Cameron,1989.0,2.0,0.5,No,7.6
+The Amityville Horror,Stuart Rosenberg,1979.0,8.0,2.5,No,6.2
+The Amityville Horror,Andrew Douglas,2005.0,16.0,4.0,No,6.0
+The Atticus Institute,Chris Sparling,2015.0,13.0,3.5,No,5.4
+The Autopsy of Jane Doe,André Øvredal,2016.0,12.0,3.0,Yes,6.8
+The Babadook,Jennifer Kent,2014.0,11.0,3.0,No,6.9
+The Babysitter,McG,2017.0,8.0,2.5,Yes,6.6
+The Bay,Barry Levinson,2012.0,8.0,2.5,No,5.6
+The Belko Experiment,Greg McLean,2016.0,8.0,2.5,No,6.2
+The Blackcoat's Daughter,Osgood Perkins,2015.0,3.0,0.5,No,5.3
+The Blair Witch Project,"Daniel Myrick, Eduardo Sánchez",1999.0,0.0,0.0,No,6.4
+The Borderlands (Final Prayer),Elliot Goldner,2013.0,12.0,3.0,No,5.7
+The Boy,Craig Macneill,2015.0,1.0,0.5,No,5.4
+The Boy,William Brent Bell,2016.0,11.0,3.0,Yes,6.0
+The Burning,Tony Maylam,1981.0,21.0,4.0,No,6.5
+The Butterfly Effect,"Eric Bress, J. Mackye Gruber",2004.0,4.0,1.0,No,7.7
+The Bye Bye Man,Stacy Title,2017.0,13.0,3.0,No,4.3
+The Cabin In The Woods,Drew Goddard,2012.0,13.0,3.0,No,7.0
+The Call,Brad Anderson,2013.0,8.0,2.5,No,6.7
+The Canal,Ivan Kavanagh,2014.0,4.0,2.0,No,5.9
+The Changeling,Peter Medak,1980.0,7.0,2.0,No,7.3
+The Cloverfield Paradox,Julius Onah,2018.0,8.0,3.0,Yes,6.2
+The Collector,Marcus Dunstan,2009.0,2.0,1.0,No,6.4
+The Conjuring,James Wan,2013.0,12.0,4.0,Yes,7.5
+The Conjuring 2,James Wan,2016.0,22.0,5.0,No,7.4
+The Conspiracy,Christopher MacBride,2012.0,1.0,0.5,No,6.4
+The Conversation,Francis Ford Coppola,1974.0,1.0,0.5,No,7.9
+The Craft,Andrew Fleming,1996.0,4.0,1.0,No,6.3
+The Crazies,Breck Eisner,2010.0,18.0,4.0,No,6.6
+The Crucifixion,Xavier Gens,2017.0,19.0,4.5,No,5.0
+The Cured,David Freyne,2017.0,16.0,3.0,No,5.6
+The Den,Zachary Donohue,2013.0,14.0,4.0,No,6.1
+The Descent,Neil Marshall,2005.0,16.0,4.0,No,7.2
+The Devil Inside,William Brent Bell,2012.0,8.0,2.5,No,4.1
+The Devil's Backbone,Guillermo del Toro,2001.0,4.0,1.5,No,7.5
+The Devil's Candy,Sean Byrne,2015.0,8.0,2.0,Yes,6.7
+The Devil's Rejects,Rob Zombie,2005.0,0.0,0.0,No,6.9
+The Disappointments Room,D.J. Caruso,2016.0,9.0,2.5,Yes,3.9
+The Endless,"Justin Benson, Aaron Moorhead",2017.0,7.0,2.5,No,6.6
+The Evil Dead,Sam Raimi,1981.0,22.0,4.0,No,7.6
+The Exorcism of Emily Rose,Scott Derrickson,2005.0,8.0,2.5,No,6.7
+The Exorcist,William Friedkin,1973.0,10.0,1.5,No,8.0
+The Exorcist III,William Peter Blatty,1990.0,11.0,2.5,No,6.3
+The Eye,"Danny Pang, Oxide Chun Pang",2002.0,5.0,2.0,No,6.7
+The Eyes of My Mother,Nicolas Pesce,2016.0,0.0,0.0,Yes,6.3
+The Faculty,Robert Rodriguez,1998.0,11.0,3.0,No,6.4
+The Final Destination,David R. Ellis,2009.0,4.0,1.0,No,5.2
+The Final Girls,Todd Strauss-Schulson,2015.0,8.0,1.5,No,6.7
+The First Purge,Gerard McMurray,2018.0,8.0,2.5,No,5.2
+The Fly,David Cronenberg,1986.0,2.0,0.5,No,7.5
+The Fog,John Carpenter,1980.0,16.0,3.5,No,6.8
+The Forest,Jason Zada,2016.0,13.0,3.5,No,4.8
+The Forgotten,Joseph Ruben,2004.0,7.0,3.0,No,5.8
+The Gallows,"Travis Cluff, Chris Lofing",2015.0,21.0,4.0,No,4.2
+The Gift,Joel Edgerton,2015.0,5.0,1.5,No,7.1
+The Girl with All the Gifts,Colm McCarthy,2016.0,3.0,1.0,No,6.8
+The Good Neighbor,Kasra Farahani,2016.0,7.0,2.0,Yes,6.3
+The Green Inferno,Eli Roth,2013.0,4.0,1.0,No,5.7
+The Grudge,Takashi Shimizu,2004.0,23.0,4.0,No,5.9
+The Guest,Adam Wingard,2014.0,5.0,1.5,No,6.7
+The Hallow,Corin Hardy,2015.0,17.0,3.5,No,5.7
+The Happening,M. Night Shyamalan,2008.0,1.0,0.5,No,5.0
+The Harvest,John McNaughton,2013.0,0.0,0.0,No,5.9
+The Haunting,Robert Wise,1963.0,3.0,1.0,No,7.6
+The Haunting in Connecticut,Peter Cornwell,2009.0,26.0,4.5,No,5.9
+The Haunting in Connecticut 2: Ghosts of Georgia,Tom Elkins,2013.0,32.0,5.0,No,5.3
+The Hills Have Eyes,Alexandre Aja,2006.0,9.0,2.5,No,6.4
+The Hole,Nick Hamm,2001.0,3.0,0.5,No,6.2
+The House of the Devil,Ti West,2009.0,4.0,1.0,No,6.4
+The House on Pine Street,"Aaron Keeling, Austin Keeling",2015.0,5.0,1.0,No,5.3
+The House with a Clock in Its Walls,Eli Roth,2018.0,8.0,1.5,No,6.2
+The Howling,Joe Dante,1981.0,10.0,2.5,No,6.6
+The Human Centipede (First Sequence),Tom Six,2009.0,4.0,1.5,No,4.4
+The Innkeepers,Ti West,2011.0,9.0,2.0,No,5.5
+The Innocents,Jack Clayton,1961.0,4.0,0.5,No,7.9
+The Invitation,Karyn Kusama,2015.0,5.0,1.0,Yes,6.6
+The Jacket,John Maybury,2005.0,6.0,1.5,No,7.1
+The Killing of a Sacred Deer,Yorgos Lanthimos,2017.0,3.0,0.5,No,7.6
+The Last Exorcism,Daniel Stamm,2010.0,7.0,2.0,No,5.6
+The Last House on the Left,Dennis Iliadis,2009.0,4.0,0.5,No,6.6
+The Lazarus Effect,David Gelb,2015.0,18.0,4.5,No,5.2
+The Limehouse Golem,Juan Carlos Medina,2016.0,0.0,0.0,No,6.4
+The Little Stranger,Lenny Abrahamson,2018.0,0.0,0.0,No,5.6
+The Love Witch,Anna Biller,2016.0,0.0,0.0,No,6.2
+The Meg,Jon Turteltaub,2018.0,18.0,3.5,No,6.1
+The Messengers,"Danny Pang, Oxide Chun Pang",2007.0,27.0,4.5,No,5.4
+The Midnight Meat Train,Ryûhei Kitamura,2008.0,1.0,0.5,No,6.2
+The Mist,Frank Darabont,2007.0,5.0,1.0,No,7.2
+The Monster,Bryan Bertino,2016.0,11.0,3.0,Yes,5.4
+The Mothman Prophecies,Mark Pellington,2002.0,4.0,1.0,No,6.5
+The Mummy,Alex Kurtzman,2017.0,16.0,3.5,No,5.5
+The Neighbor,Marcus Dunstan,2016.0,3.0,1.0,No,5.8
+The Neon Demon,Nicolas Winding Refn,2016.0,2.0,0.5,No,6.2
+The New Daughter,Luiso Berdejo,2009.0,11.0,2.5,No,5.3
+The Ninth Gate,Roman Polanski,1999.0,0.0,0.0,No,6.7
+The Number 23,Joel Schumacher,2007.0,3.0,0.5,No,6.4
+The Nun,Corin Hardy,2018.0,21.0,4.5,No,6.0
+The Omen,Richard Donner,1976.0,1.0,0.5,No,7.6
+The Ones Below,David Farr,2015.0,0.0,0.0,Yes,6.1
+The Open House,"Matt Angel, Suzanne Coote",2018.0,14.0,3.0,Yes,3.3
+The Orphanage,J.A. Bayona,2007.0,6.0,1.5,No,7.5
+The Other Side of the Door,Johannes Roberts,2016.0,16.0,3.5,No,5.3
+The Others,Alejandro Amenábar,2001.0,4.0,2.0,No,7.6
+The Pact,Nicholas McCarthy,2012.0,12.0,3.0,No,5.8
+The People Under the Stairs,Wes Craven,1991.0,13.0,3.0,No,6.3
+The Possession,Ole Bornedal,2012.0,10.0,3.0,No,5.9
+The Possession of Michael King,David Jung,2014.0,20.0,4.0,No,5.7
+The Predator,Shane Black,2018.0,6.0,1.5,No,5.6
+The Purge,James DeMonaco,2013.0,12.0,3.0,No,5.6
+The Purge: Anarchy,James DeMonaco,2014.0,13.0,3.0,No,6.5
+The Purge: Election Year,James DeMonaco,2016.0,9.0,2.5,No,6.0
+The Quiet Ones,John Pogue,2014.0,23.0,4.0,No,5.1
+The Return of the Living Dead,Dan O'Bannon,1985.0,1.0,0.5,No,7.3
+The Ring,Gore Verbinski,2002.0,9.0,2.5,No,7.1
+The Ring Two,Hideo Nakata,2005.0,11.0,3.0,No,5.4
+The Rite,Mikael Håfström,2011.0,7.0,2.0,Yes,6.0
+The Ritual,David Bruckner,2017.0,15.0,3.0,Yes,6.3
+The Sacrament,Ti West,2013.0,2.0,0.5,No,6.1
+The Shallows,Jaume Collet-Serra,2016.0,9.0,2.5,No,6.3
+The Shape of Water,Guillermo del Toro,2017.0,2.0,0.5,No,8.1
+The Shining,Stanley Kubrick,1980.0,3.0,0.5,Yes,8.4
+The Silence of the Lambs,Jonathan Demme,1991.0,0.0,0.0,No,8.6
+The Sixth Sense,M. Night Shyamalan,1999.0,8.0,1.5,Yes,8.2
+The Skeleton Key,Iain Softley,2005.0,11.0,3.0,No,6.5
+The Snowman,Tomas Alfredson,2017.0,9.0,2.0,No,5.1
+The Strangers,Bryan Bertino,2008.0,16.0,4.5,No,6.2
+The Strangers: Prey at Night,Johannes Roberts,2018.0,14.0,3.5,No,5.5
+The Taking of Deborah Logan,Adam Robitel,2014.0,19.0,3.5,No,6.0
+The Texas Chain Saw Massacre,Tobe Hooper,1974.0,2.0,1.0,No,7.5
+The Texas Chainsaw Massacre,Marcus Nispel,2003.0,16.0,3.0,No,6.2
+The Texas Chainsaw Massacre: The Beginning,Jonathan Liebesman,2006.0,17.0,3.5,Yes,5.9
+The Thing,John Carpenter,1982.0,7.0,2.0,No,8.2
+The Thing,Matthijs van Heijningen Jr.,2011.0,7.0,2.5,No,6.2
+The Town That Dreaded Sundown,Alfonso Gomez-Rejon,2014.0,8.0,3.0,No,5.6
+The Transfiguration,Michael O’Shea,2016.0,2.0,1.0,No,5.9
+The Tunnel,Carlo Ledesma,2011.0,6.0,2.5,No,5.9
+The Unborn,David S. Goyer,2009.0,14.0,3.5,Yes,4.8
+The Uninvited,Charles & Thomas Guard,2009.0,11.0,3.0,Yes,6.4
+The Veil,Phil Joanou,2016.0,12.0,3.0,Yes,4.7
+The Village,M. Night Shyamalan,2004.0,4.0,1.0,No,6.5
+The Visit,M. Night Shyamalan,2015.0,8.0,2.5,No,6.2
+The Voices,Marjane Satrapi,2014.0,3.0,0.5,No,6.3
+The Void,"Jeremy Gillespie, Steven Kostanski",2016.0,8.0,2.0,Yes,5.8
+The Wailing,Na Hong-jin,2016.0,4.0,1.0,Yes,7.5
+The Ward,John Carpenter,2010.0,15.0,4.0,No,5.6
+The Wicker Man,Robin Hardy,1973.0,4.0,0.5,No,7.6
+The Witch,Robert Eggers,2015.0,4.0,1.5,Yes,6.8
+The Wolfman,Joe Johnston,2010.0,18.0,4.0,No,5.8
+The Woman in Black,James Watkins,2012.0,16.0,4.0,No,6.5
+The Woman in Black 2: Angel of Death,Tom Harper,2014.0,14.0,4.0,No,4.9
+Them (Ils),"David Moreau, Xavier Palud",2006.0,16.0,4.0,No,6.5
+Thesis (Tesis),Alejandro Amenábar,1996.0,3.0,0.5,No,7.5
+They Look Like People,Perry Blackshear,2015.0,2.0,0.5,No,6.1
+Thirteen Ghosts,Steve Beck,2001.0,17.0,3.0,No,5.5
+Timecrimes,Nacho Vigalondo,2007.0,3.0,0.5,No,7.2
+Tragedy Girls,Tyler Macintyre,2017.0,8.0,2.0,No,6.1
+Train to Busan,Sang-ho Yeon,2016.0,4.0,1.0,Yes,7.5
+Trash Fire,Richard Bates Jr.,2016.0,0.0,0.0,Yes,5.8
+Tremors,Ron Underwood,1990.0,16.0,2.5,No,7.1
+Triangle,Christopher Smith,2009.0,5.0,1.0,No,6.9
+Trick 'r Treat,Michael Dougherty,2007.0,6.0,2.5,No,6.8
+Truth or Dare,Jeff Wadlow,2018.0,7.0,2.0,No,4.8
+Tucker and Dale vs. Evil,Eli Craig,2010.0,9.0,1.5,No,7.6
+Tusk,Kevin Smith,2014.0,0.0,0.0,Yes,5.4
+Under the Shadow,Babak Anvari,2016.0,9.0,3.5,Yes,7.0
+Unfriended,Leo Gabriadze,2014.0,5.0,3.0,No,5.8
+Unfriended: Dark Web,Stephen Susco,2018.0,6.0,1.5,No,5.5
+Unsane,Steven Soderbergh,2018.0,2.0,0.5,No,6.7
+Urban Legend,Jamie Blanks,1998.0,17.0,4.0,No,5.5
+Us,Jordan Peele,2019.0,11.0,2.5,No,7.4
+Uzumaki,Higuchinsky,2000.0,15.0,3.0,No,6.2
+Vacancy,Nimród Antal,2007.0,12.0,2.5,No,6.2
+Velvet Buzzsaw,Dan Gilroy,2019.0,10.0,2.5,No,6.1
+Veronica,Paco Plaza,2017.0,10.0,3.0,Yes,6.5
+V/H/S,Various Directors,2012.0,7.0,3.5,No,5.8
+V/H/S/2,Various Directors,2013.0,14.0,4.0,No,6.1
+Victor Frankenstein,Paul McGuigan,2015.0,6.0,1.5,No,6.0
+Viral,"Henry Joost, Ariel Schulman",2016.0,20.0,4.0,No,5.5
+Visions,Kevin Greutert,2015.0,10.0,3.5,No,5.4
+Wait Until Dark,Terence Young,1967.0,1.0,0.5,No,7.9
+We Are Still Here,Ted Geoghegan,2015.0,12.0,3.0,No,5.7
+Wes Craven's New Nightmare,Wes Craven,1994.0,11.0,2.5,No,6.4
+What Lies Beneath,Robert Zemeckis,2000.0,16.0,3.0,No,6.6
+When a Stranger Calls,Fred Walton,1979.0,5.0,2.0,No,6.6
+Wildling,Fritz Böhm,2018.0,4.0,1.5,No,6.1
+Winchester,"Michael Spierig, Peter Spierig",2018.0,17.0,4.0,No,5.4
+Wind Chill,Gregory Jacobs,2007.0,13.0,3.0,No,5.9
+Wish Upon,John R. Leonetti,2017.0,11.0,2.0,No,4.8
+Wolf Creek,Greg McLean,2005.0,0.0,0.0,No,6.3
+World War Z,Marc Forster,2013.0,7.0,2.5,No,7.0
+Would You Rather,David Guy Levy,2012.0,3.0,1.0,Yes,5.8
+Wrong Turn,Rob Schmidt,2003.0,13.0,3.0,No,6.1
+You're Next,Adam Wingard,2011.0,11.0,3.0,No,6.5
+Zodiac,David Fincher,2007.0,3.0,0.5,No,7.7
+Zombieland,Ruben Fleischer,2009.0,9.0,3.0,No,7.7

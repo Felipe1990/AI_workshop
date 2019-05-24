@@ -23,9 +23,20 @@ output:
 
 # Horizontal Slide 2
 
-## Embed a web page as a background {data-background-iframe="https://example.com"}
+## {data-background-iframe="https://example.com"}
 
+## {data-background-iframe="https://www.youtube.com/embed/nXY6PxAaOk0"}
+
+
+## {data-background-video="kmeans_sim.mp4"}
 ## R Markdown
+
+the importance of snippets
+headers
+library vs required
+steps
+folder strucutre
+
 
 This is an R Markdown presentation. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see <http://rmarkdown.rstudio.com>.
 
