@@ -7,7 +7,7 @@ output:
     theme: simple
     highlight: pygments
     center: true
-    transition: convex
+    transition: concave
     background_transition: fade
     reveal_options:
       slideNumber: false
