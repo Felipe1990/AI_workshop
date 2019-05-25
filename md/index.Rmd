@@ -1,12 +1,14 @@
 ---
-title: "Untitled"
+title: "Mi primer proyecto en R"
+author: "Felipe Avella"
+date: "Mayo 25, 2019"
 output: 
   revealjs::revealjs_presentation:
-    self_contained: true
+    reveal_plugins: ["chalkboard"]
+    self_contained: false
     incremental: true
     theme: simple
     highlight: pygments
-    center: true
     transition: concave
     background_transition: fade
     reveal_options:
@@ -14,49 +16,297 @@ output:
       previewLinks: true
 ---
 
+```{r, include=FALSE}
+library(ggplot2)
+library(dplyr)
+library(tidyr)
+library(lubridate)
+library(scatterD3)
 
-# Horizontal Slide 1
+```
+## ¿Tenemos instalado lo necesario?
 
-## Vertical Slide 1
+## Sobre mí
 
-## Vertical Slide 2
+- Soy economista
+- He trabajado como profesor y como análista de datos
+- Actualmente trabajo en una empresa de consultoria (**BCG**)
+- Me gustan los videojuegos 
+- ... y el fútbol
 
-# Horizontal Slide 2
+# Objetivos del taller {data-background=#85C1E9}
+ 
+## Seamos ambiciosos
 
-## {data-background-iframe="https://example.com"}
+- Entender la diferencia entre R y RStudio y conocer las opciones de personalización de RStudio
+
+- Tener una mejor idea de la lógica del lenguaje
+
+- Conocer las estructuras de datos que podemos encontrarnos usualmente en R
+
+- Familiarizarnos con la programación funcional en R y cómo no enredarnos con las funciones y los paquetes
+
+- Conocer buenas prácticas para organizar un proyecto de analítica
+
+## ... muy ambiciosos 
+
+- Aprender a usar los "manuales" de las funciones y los paquetes
+
+- Familiarizarnos con los paquetes `dplyr` y `ggplot2`
+
+- Realizar un par de ejercicios
+
+- Que a todos nos funcione el código que vamos a usar
+
+## {data-background="ToDoChase.png"}
+
+# Lo fundamental sobre R {data-background=#85C1E9}
+
+## ¿Qué es R?
+
+- **R** es un lenguaje de programación de acceso libre, inicialmente diseñado y utilizado para realizar análisis estadístico.
+
+- **R** es el programa que instalamos para interpretar el código que escribimos
+
+- **RStudio** es un IDE (Integrated Development Environment) que funciona como una mascara sobre R, con más herramientas y facilidades
+
+## ¿Por qué nos gusta?
+
+- No solamente permite realizar análisis estadístico; tambien es posible capturar información de páginas web, crear aplicaciones web, procesar texto, entre otras cosas
+
+- La comunidad que lo usa es muy amplia
+
+- Es muy versátil para la creación de gráficos
+
+- Tiene disponibles muchos paquetes para diferentes tipos de análisis
+
+- **¡ES GRATIS!**
+
+## ¿Cómo correr comandos/código?
+
+- Si se está trabajando en el panel *console* solamente es necesario presionar "Enter".
+
+- Si se está trabajando en un *script* es posible ejecutar los comandos presionando "Ctrl+Enter:
+
+- Adcionalmente, "#" nos permite incluir comentarios en cualquier lugar del *script* 
+ 
+## ¿Qué tipo de estructuras de datos podemos encontrar?
+
+Las estructuras de datos de R se pueden resumir de acuerdo con su número de dimensiones y si su contenido es homogéneo o heterogéneo. En estas se almacena la información que utilizamos.
+
+\# de dimensiones | Homogéneo   | Heterogéneo 
+------------------|------------ | ------------- 
+1d                |*Vector*     | *List*        
+2d                |*Matrix*     | *Data frames*
+
+¿Qué significa cada dimensión?
+
+¿Que significa que su contenido sea homogéneo o heterogéneo?
+
+## Contenido de las estructuras de datos
+
+Tipo | Ejemplos 
+-----|--------
+*integer*| 1, 2, 100, 200, ...
+*double*| 1.0, 1.2, 9.9999, 4.55, ...
+*character*| "1", "texto", "casa", ...
+*logical* | FALSE, TRUE, F, T
+*complex* | 3+1i, 2+2i, ...
+
+*double* y *numeric* se pueden entender como lo mismo
+
+## Para utilizar una función en R se debe:
+  
+- Escribir el nombre exacto de la función (se debe tener cuidado con la combinación de mayúsculas y minúsculas) seguido de un paréntesis "\(".
+  
+- Después del paréntesis deben ir todos los argumentos de la función separados por comas; existen funciones que no necesitan argumentos (ej: `Sys.time()`).
+
+- Es importante no olvidar cerrar los paréntesis.
+  
+## Manuales de las funciones 
+
+## En R {data-background=#2962C2}
+
+## En línea {data-background-iframe="https://www.rdocumentation.org/packages/base/versions/3.6.0/topics/data.frame"}
+
+## Grupos de funciones ~ paquetes
+
+- Cuando varias funciones son desarrolladas con un objetivos similar se sulenes agrupar en paquetes los cuales son colaborativamente distribuidos gratuitamente
+
+- Para utilizar de las funciones de un paquete es necesario instalar este paquete primero usando `install.packages()` y luego cargarlo en nuestro ambiente de trabajo usando `library()`
+
+# ¿Cómo organizar un proyecto de análisis de datos?* {data-background=#85C1E9}
+
+**¿Qué es lo más importante?**
+
+## Aspectos importantes 
+
+- Pregunta/hipótesis
+
+- Propósito del proyecto
+
+- Los datos que vamos a usar 
+
+- El inicio del proyecto no es el momento para detenerse en detalles
+
+## Luego de resolver lo más importante, ¿cómo estructuramos nuestro directorio/carpeta?*
+
+```
+nombre_del_proyecto         <- nombre del proyecto 
+│   README.txt              
+│
+├───data                    
+│   ├───input               <- datos inicial
+│   ├───interim             <- data intermedia
+│   └───procesada           <- lista para análisis
+|
+├───outputs                 
+│   └───imagenes            
+|                           
+├───referencias
+│   ├───origen_datos.txt    <- descripción del origen de los datos
+│   └───diccionarios        <- diccionarios de variables
+|
+└───scripts
+    ├───analisis            <- código principal 
+    ├───borradores          <- código borrador 
+    └───tidying             <- scripts para preparar la base que 
+                              se usará para el análisis 
+```
+
+## `setwd()` vs projects
+
+- `setwd()` permite cambiar el ambiente de trabajo desde el cual se cargan los archivos
+
+- projects es la manera integral de ajustar el ambiente de trabajo para un proyecto
+
+- Por reproducibilidad, facilidad y para tener los proyectos mejor organizados es mucho mejor usar projects y disminuir al mínimo el uso de `setwd()`
+
+## Vamos a R {data-background=#2962C2}
+
+## ¿Vale la pena este trabajo previo?
+
+- **Sí**
+
+
+- En realidad no es tanto; depende del tamaño del proyecto
+- Eventualmente se convierte en hábito
+- El "futuro yo" estará muy agradecido si el proyecto escala
+
+## Preparemos una carpeta para nuestro primer ejercicio {data-background=#2962C2}
+
+# Ya está todo preparado..., ¿por dónde vamos a empezar? {data-background=#85C1E9}
+
+## Importar los datos al ambiente de trabajo
+
+- Identificar en que formato viene el archivo y utilizar el paquete/función que nos va a permitir importarlo:
+
+    - Para arhivos diferentes a *csv* podemos usar `readxl` (Excel) y `foreign` (SAS o Stata); sin embargo la mayoría de tipos de datos están soportados con algún paquete
+
+- Asignar los datos a un objeto en nuestro ambiente de trabajo
+
+- Revisar las dimensiones y los nombre de la base que importamos
+
+## Algunos pasos comunes al preparar la base de datos
+
+- Renombrar las variables
+
+- Tratar missing values
+
+- Identificar outliers
+
+- Identificar duplicados
+
+- Convertir strings a números
+
+- Crear categorias a partir de variables continuas (binning)
+
+- Crear variables compuestas
+
+## Inspección visual usando ggplot2
+
+ggplot2 permite definir diferentes capas para llegar a la visualización que se quiere, pero ¿qué significan estas capas?
+
+
+- **La base de datos con la que vamos a trabajar.**
+
+- **Las dimensiones/variables que vamos a utilizar en la representación.**
+
+- **Los elementos visuales o marcas que queremos incorporar, tales como líneas, puntos, áreas, etc.**
+
+- **Los grupos de datos sobre los cuales quisieramos realizar la representación de los datos**
+
+# Primer proyecto - [Resultados de partidos de futbol de selecciones desde 1980](https://www.kaggle.com/martj42/international-football-results-from-1872-to-2017) {data-background=#F6983A}
+
+## {data-background="yes.jpg"}
+
+## Vamos a R {data-background=#2962C2} 
 
 ## {data-background-iframe="https://www.youtube.com/embed/nXY6PxAaOk0"}
 
-
 ## {data-background-video="kmeans_sim.mp4"}
-## R Markdown
-
-the importance of snippets
-headers
-library vs required
-steps
-folder strucutre
 
 
-This is an R Markdown presentation. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see <http://rmarkdown.rstudio.com>.
+# Tips {data-background=#85C1E9}
 
-When you click the **Knit** button a document will be generated that includes both content as well as the output of any embedded R code chunks within the document.
+## En el código
 
-## Slide with Bullets
+- Aprovechar los **snippets**
 
-- Bullet 1
-- Bullet 2
-- Bullet 3
+- Utilizar la opción de **auto-indent** que viene con RStudio - Ctrl + i
 
-## Slide with R Code and Output
+- Crear y utilizar **bookmars** - Ctrl + Shift + r
 
-```{r}
-summary(cars)
-```
+- No es necesario escribir los nombre de los argumentos en las funciones, pero sí mejora su legibilidad
 
-## Slide with Plot
+- Evitar líneas de código muy largas y complejas
 
-```{r, echo=FALSE}
-plot(cars)
-```
+- Releer el código
 
+## Fuera del código
+
+- Utilizar la carpeta de *borradores*
+
+- Para visualizar los gráficos, hacerlo en una ventana separada usando el comando windows(), quartz() o X12(), dependiendo del sistema operativo
+
+- Utilizar un programa de control de cambios, por ejemplo git + GitHub Desktop
+
+- Google es su mejor amigo
+
+## Vamos a R {data-background=#2962C2}
+
+# Segundo proyecto - [Jumpscares en películas](https://wheresthejump.com/) {data-background=#F6983A}
+
+## Vamos a R {data-background=#2962C2}
+
+# Proyecto libre - [Incautaciones de droga en Bogotá, durante 2019](https://www.datos.gov.co/Seguridad-y-Defensa/Incautaci-n-estupefacientes-2019/65kq-vzws) {data-background=#F6983A}
+
+## Vamos a R {data-background=#2962C2}
+
+# Gracias 
+
+# Material complementario
+
+## Buscando ayuda en línea
+
+>- **[Stack Overflow](https://stackoverflow.com/)**
+>- **[R Blogger](https://www.r-bloggers.com)**
+
+ ![](wisdom_of_the_ancients.png)
+
+## Estructuras de datos en R
+
+>- **[Estructuras de datos](http://adv-r.had.co.nz/Data-structures.html)**
+>- **[Ejercicios adicionales sobre estructuras de datos](https://www.r-exercises.com/2017/04/07/r-data-structures-exercises-part-1/)**
+
+## ggplot2
+
+>- **[Referencia de ggplot2 I](http://r4ds.had.co.nz/data-visualisation.html)**
+>- **[Referencia de ggplot2 II](http://ggplot2.tidyverse.org/reference/)** 
+>- **[R Graphics Cookbook](http://www.cookbook-r.com/Graphs/)** 
+
+## Estructurando proyectos en R
+
+>-   [Nice R code: designing projects](https://nicercode.github.io/blog/2013-04-05-projects/)
+>-   [Structuring R projects](https://www.r-bloggers.com/structuring-r-projects/)
+>-   [R packages: package structure](http://r-pkgs.had.co.nz/package.html)

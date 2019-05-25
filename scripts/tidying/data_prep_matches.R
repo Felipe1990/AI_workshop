@@ -2,7 +2,7 @@ library(lubridate)
 library(dplyr)
 library(ggplot2)
 
-results <- read.csv("data/results_1872_2018.csv", encoding = "UTF-8", stringsAsFactors = FALSE) %>%
+results <- read.csv("data/input/results_1872_2018.csv", encoding = "UTF-8", stringsAsFactors = FALSE) %>%
   mutate(year = year(ymd(date))) %>%
   filter(year > 1980)
   
@@ -42,7 +42,10 @@ for (team in all_teams) {
     
 }
 
-write.csv(agg_df, "data/results_1980_2018.csv", row.names = FALSE)
+agg_df <- agg_df %>%
+  mutate(team = iconv(team, from = "UTF-8", to = "ASCII//TRANSLIT"))
+
+write.csv(agg_df, "data/processed/results_1980_2018.csv", row.names = FALSE, fileEncoding = "UTF-8")
 
 
 agg_df <- agg_df %>% 
