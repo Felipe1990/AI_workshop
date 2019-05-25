@@ -187,10 +187,8 @@ nombre_del_proyecto         <- nombre del proyecto
 ## ¿Vale la pena este trabajo previo?
 
 - **Sí**
-
-
 - En realidad no es tanto; depende del tamaño del proyecto
-- Eventualmente se convierte en hábito
+- Eventualmente se convierte en un hábito
 - El "futuro yo" estará muy agradecido si el proyecto escala
 
 ## Preparemos una carpeta para nuestro primer ejercicio {data-background=#2962C2}
@@ -201,7 +199,7 @@ nombre_del_proyecto         <- nombre del proyecto
 
 - Identificar en que formato viene el archivo y utilizar el paquete/función que nos va a permitir importarlo:
 
-    - Para arhivos diferentes a *csv* podemos usar `readxl` (Excel) y `foreign` (SAS o Stata); sin embargo la mayoría de tipos de datos están soportados con algún paquete
+    - Para arhivos diferentes a *csv* podemos usar `readxl` (Excel) y `foreign` (SPSS o Stata); sin embargo la mayoría de tipos de datos están soportados con algún paquete
 
 - Asignar los datos a un objeto en nuestro ambiente de trabajo
 
@@ -223,6 +221,7 @@ nombre_del_proyecto         <- nombre del proyecto
 
 - Crear variables compuestas
 
+
 ## Inspección visual usando ggplot2
 
 ggplot2 permite definir diferentes capas para llegar a la visualización que se quiere, pero ¿qué significan estas capas?
@@ -242,7 +241,10 @@ ggplot2 permite definir diferentes capas para llegar a la visualización que se 
 
 ## Vamos a R {data-background=#2962C2} 
 
-## {data-background-iframe="https://www.youtube.com/embed/nXY6PxAaOk0"}
+## K-means
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/nXY6PxAaOk0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 
 ## {data-background-video="kmeans_sim.mp4"}
 
